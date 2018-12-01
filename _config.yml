@@ -1,0 +1,21 @@
+plugins:
+  - jekyll-mentions
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+exclude:
+  - node_modules
+  - LICENSE
+  - Makefile
+  - README.md
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  # - assets/css/main.css
+  # - assets/css/prism.css
+  # - assets/css/style.css
+  # - assets/js/prism.js
+  # - assets/js/script.js.01.bak
+  # - assets/js/script.js.02.bak
+  # - assets/js/script.js
