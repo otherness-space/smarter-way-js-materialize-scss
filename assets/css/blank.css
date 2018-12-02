@@ -1,0 +1,150 @@
+html {
+  font-size: 100%;
+}
+html,
+body,
+header,
+nav,
+main,
+p {
+  display: block;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+ background: blue;
+}
+header {
+  width: 100%;
+  height: 20%;
+  margin: auto;
+  border: solid green .25em;
+  padding: inherit;
+  background: red;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  border: solid black .25em;
+  background: yellow;
+}
+
+header {
+  padding-inline-start: calc(.5 * 1em);
+}
+nav ul {
+  padding-inline-start: calc(.75 * 1em);
+}
+
+nav ul li {
+  display: inline-flex;
+  box-sizing: content-box;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: 0;
+  padding: .5em;
+}
+
+section {
+
+}
+
+article {
+
+}
+
+aside {
+  font-size: .707em;
+}
+
+footer {
+  font-size: .5em;
+}
+
+h1, .h1 {
+  font-size: calc(3.998em * .9);
+}
+
+h2, .h2 {
+  font-size: 2.827em;
+}
+
+h3, .h3 {
+  font-size: 1.999em;
+}
+
+h4, .h4 {
+  font-size: 1.414em;
+}
+
+p {
+  font-size: 1em;
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+a:visited {
+
+}
+
+
+
+/* breakpoints */
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 36em) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 48em) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 62em) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 75em) {}
+
+// Extra small devices (portrait phones, less than 576px)
+/* @media (max-width: 575.98px) {} */
+@media (max-width: 35.99875em) {}
+
+// Small devices (landscape phones, less than 768px)
+/* @media (max-width: 767.98px) {} */
+@media (max-width: 47.99875em) {}
+
+// Medium devices (tablets, less than 992px)
+/* @media (max-width: 991.98px) {} */
+@media (max-width: 61.99875em) {}
+
+@media (max-width: 63.81125em) {}
+
+// Large devices (desktops, less than 1200px)
+/* @media (max-width: 1199.98px) {} */
+@media (max-width: 74.99875em) {}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
