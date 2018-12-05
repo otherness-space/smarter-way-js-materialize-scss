@@ -1,3 +1,6 @@
+---
+---
+
 html {
   font-size: 100%;
 }
@@ -49,6 +52,7 @@ nav ul {
 nav ul li {
   display: inline-flex;
   box-sizing: content-box;
+  padding: 0 .5em 0 0;
 }
 
 main {
@@ -86,7 +90,7 @@ h3, .h3 {
 h4, .h4 {
   font-size: 1.414em;
 }
-
+/* font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit; */
 p {
   font-size: 1em;
 }
