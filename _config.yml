@@ -16,7 +16,7 @@ sass:
 
 include:
   - permalink: /404.html
-  
+
 exclude:
   - node_modules
   - LICENSE
@@ -26,7 +26,7 @@ exclude:
   - package-lock.json
   - yarn.lock
   - blank.html
-  - assets/css/blank.csss
+  - assets/css/blank.css
   - assets/css/add-style.css
   # - assets/css/main.css
   # - assets/css/prism.css
