@@ -1,5 +1,10 @@
----
----
+/* https://www.npmjs.com/package/styleflux */
+/* styleflux -o <filename> */
+/* mv <filename>.css sass_dir/_<filename>.scss */
+/* styleflux -o add-style.css */
+/* mv add-style.css sass_dir/_add-style.scss */
+/* add @import "add-style"; => assets/css/main.scss */
+/* convert css to scss for Jekyll native sass to play with */
 
 html {
   font-size: 100%;
