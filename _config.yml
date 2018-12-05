@@ -1,9 +1,22 @@
+highlighter: rouge
+excerpt_separator: <!--more-->
+markdown: kramdown
 plugins:
   - jekyll-mentions
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-avatar
+
 sass:
   load_paths:
+    - sass_dir
     - _sass
     - node_modules
+
+include:
+  - permalink: /404.html
+  
 exclude:
   - node_modules
   - LICENSE
@@ -12,8 +25,9 @@ exclude:
   - package.json
   - package-lock.json
   - yarn.lock
-  - blank.css
   - blank.html
+  - assets/css/blank.csss
+  - assets/css/add-style.css
   # - assets/css/main.css
   # - assets/css/prism.css
   # - assets/css/style.css
