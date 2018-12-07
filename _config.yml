@@ -10,25 +10,32 @@ plugins:
 
 sass:
   load_paths:
+    - scss
     - sass_dir
     - _sass
     - node_modules
 
 include:
   - permalink: /404.html
+  - assets/js
 
 exclude:
   - node_modules
   - LICENSE
   - Makefile
-  - README.md
+# - README.md
   - package.json
   - package-lock.json
   - yarn.lock
   - blank.html
   - assets/css/blank.css
   - assets/css/add-style.css
-  # - assets/css/main.css
+  - assets/vendor/css/materialize.css
+  - assets/vendor/js/materialize.js
+  - test
+  - .eslintrc.js
+  - .travis.yml
+  - index.js
   # - assets/css/prism.css
   # - assets/css/style.css
   # - assets/js/prism.js
