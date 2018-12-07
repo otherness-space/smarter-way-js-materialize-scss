@@ -1,4 +1,4 @@
-highlighter: rouge
+highlighter: none
 excerpt_separator: <!--more-->
 markdown: kramdown
 plugins:
@@ -36,9 +36,9 @@ exclude:
   - .eslintrc.js
   - .travis.yml
   - index.js
-  # - assets/css/prism.css
+  - assets/css/prism.css
   # - assets/css/style.css
-  # - assets/js/prism.js
+  - assets/js/prism.js
   # - assets/js/script.js.01.bak
   # - assets/js/script.js.02.bak
   # - assets/js/script.js

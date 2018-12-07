@@ -1,3 +1,8 @@
+---
+---
+$black_262626: #262626;
+$darkgray_b3b3b3: #b3b3b3;
+
 html {
   border: 0;
   box-sizing: border-box;
@@ -103,4 +108,15 @@ h4 {
 
 .h4 {
   font-size: 1.414em;
+}
+
+pre[class*="language-"] {
+  background: $black_262626;
+  border: .3em solid $darkgray_b3b3b3;
+}
+
+:not(pre) {
+  >code[class*="language-"] {
+    background: $black_262626;
+  }
 }
