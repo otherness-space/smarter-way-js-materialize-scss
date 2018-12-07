@@ -36,7 +36,7 @@ Blank repo.
 
 ### Where [≪](#read-me)
 
-Blank
+Built local with an Atom editor on a Win 10 64 host and `git` on a VboxVM for an Ubuntu guest .
 
 ### Why [≪](#read-me)
 
@@ -44,6 +44,12 @@ Blank
 
 ### How [≪](#read-me)
 
+`Bitnami nodejs stack>npm`
+Windows hosts with Linux guests that share folders have issues with symlinks created from within the guest because Win 10 64 doesn't support such links in a way that doesn't take all year to execute. `NPM` does not install local packages on a Linux guest on a Win host, when the pkg has symlinks, at all as of now. However, Bootstrap and its dependencies do not have such issues but the `node` and `npm` v* may be a problem.
+```npm i -D shelljs shx mocha should dart-sass fibers eslint stylelint stylelint-scss requirejs materialize-css```
+[ESLint rules](https://eslint.org/docs/rules/)
+[Configuring ESLint](https://eslint.org/docs/user-guide/configuring)
+[Configuring stylelint](https://stylelint.io/user-guide/configuration/)
 * * *
 
 ## Notes [≪](#read-me)
