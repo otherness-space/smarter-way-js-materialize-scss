@@ -1,19 +1,19 @@
 highlighter: none
-excerpt_separator: <!--more-->
-markdown: kramdown
+# excerpt_separator: <!--more-->
+# markdown: kramdown
 plugins:
   - jekyll-mentions
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-avatar
+  # - jekyll-feed
+  # - jekyll-seo-tag
+  # - jekyll-sitemap
+  # - jekyll-avatar
 
 sass:
   load_paths:
     - scss
-    - sass_dir
-    - _sass
-    - node_modules
+    # - sass_dir
+    # - _sass
+    # - node_modules
 
 include:
   - permalink: /404.html
@@ -38,7 +38,8 @@ exclude:
   - index.js
   - assets/css/prism.css
   # - assets/css/style.css
-  - assets/js/prism.js
+  # Jekyll local build serve does not like prism.min.js
+  - assets/js/prism.min.js
   # - assets/js/script.js.01.bak
   # - assets/js/script.js.02.bak
   # - assets/js/script.js
