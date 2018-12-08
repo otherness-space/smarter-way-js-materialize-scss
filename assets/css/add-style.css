@@ -212,6 +212,10 @@ article pre[class*="language-"] {
   main {
     width: 28em;
   }
+
+  section {
+    width: 28em;
+  }
 }
 
 // > 560px
