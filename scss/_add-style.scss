@@ -1,3 +1,4 @@
+$black_000: #000000;
 $black_262626: #262626;
 $darkgray_b3b3b3: #b3b3b3;
 $gainsboro_e6e6e6: #e6e6e6;
@@ -12,7 +13,7 @@ html {
 }
 
 body {
-  background: blue;
+  background: white;
   border: 0;
   box-sizing: border-box;
   display: block;
@@ -24,8 +25,9 @@ header {
   display: block;
   box-sizing: border-box;
   height: 20%;
-  border: solid green .25em;
-  background: red;
+  border: solid $black_000;
+  border-width: 0 0 .125em 0;
+  background: whitesmoke;
 
   h1 {
     margin: 0;
@@ -42,16 +44,27 @@ nav {
   width: 100%;
   margin: auto;
   padding: inherit;
-  border: solid black .25em;
-  background: yellow;
+  border: solid $black_000;
+  border-width: .125em 0 0 0;
+  background: whitesmoke;
+
+  &:hover {
+    background: rgba(245, 245, 245, .7);
+    border: solid white;
+    border-width: .125em 0 0 0;
+  }
 
   ul {
     padding-inline-start: calc(.25 * 1em);
 
     li {
-      box-sizing: content-box;
       display: inline-flex;
+      box-sizing: content-box;
       padding: 0 .5em 0 0;
+
+      &:hover {
+        background: rgba(245, 245, 245, .1);
+      }
     }
   }
 }
@@ -71,7 +84,7 @@ p {
   display: block;
   font-size: calc(1.2*1em);
   margin: 0 auto;
-  width: 18.75em;
+  width: 18.5em;
 }
 
 .header-box {
@@ -85,6 +98,13 @@ p {
   box-sizing: border-box;
   display: block;
   margin: 0 auto;
+  width: 22.5em;
+}
+
+section {
+  background: lightgray;
+  margin: 0 auto;
+  padding: calc(.25*1em);
   width: 22.5em;
 }
 
@@ -172,24 +192,32 @@ pre[class*="language-"] {
 
 @media (min-width: 35em) {
   .header-box {
-    width: 32.5em;
+    width: 30.5em;
   }
 
   .nav-box {
-    width: 32.5em;
+    width: 30.5em;
   }
 
   p {
-    width: 32.5em;
+    width: 30.5em;
+  }
+
+  section {
+    width: 38em;
   }
 
   pre[class*="language-"] {
-    width: 33em;
+    width: 31em;
   }
 }
 
 @media (min-width: 48em) {
+  section {
+    width: 40em;
+  }
+
   pre[class*="language-"] {
-    width: 35em;
+    width: 32.5em;
   }
 }

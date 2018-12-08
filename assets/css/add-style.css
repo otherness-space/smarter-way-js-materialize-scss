@@ -29,13 +29,14 @@ body {
 }
 
 body {
-  background: blue;
+  background: hsla(0, 0%, 100%, 1);
 }
 
 header {
   height: 20%;
-  border: solid green .25em;
-  background: red;
+  border: solid #000;
+  border-width: 0 0 .125em 0;
+  background: rgba(245, 245, 245, 1);
 }
 
 header h1 {
@@ -62,8 +63,15 @@ nav {
 }
 
 nav {
-  border: solid black .25em;
-  background: yellow;
+  border: solid #000;
+  border-width: .125em 0 0 0;
+  background: rgba(245, 245, 245, 1);
+}
+
+nav:hover {
+  border: solid white;
+  border-width: .125em 0 0 0;
+  background: rgba(245, 245, 245, .7);
 }
 
 nav ul {
@@ -76,6 +84,10 @@ nav ul li {
   padding: 0 .5em 0 0;
 }
 
+nav ul li:hover {
+  background: rgba(245, 245, 245, .1);
+}
+
 main {
   width: 100%;
   height: auto;
@@ -84,7 +96,12 @@ main {
   padding: .5em;
 }
 
-section {}
+section {
+  width: 22.5em;
+  margin: 0 auto;
+  padding: calc(.25*1em);
+  background: rgba(211, 211, 211, 1);
+}
 
 article {}
 
@@ -114,7 +131,7 @@ h4, .h4 {
 
 /* font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit; */
 p {
-  width: 18.75em;
+  width: 18.5em;
   font-size: calc(1.2*1em);
 }
 
@@ -177,11 +194,15 @@ pre[class*="language-"]:hover {
   .header-box,
   .nav-box,
   p {
-    width: 32.5em;
+    width: 30.5em;
+  }
+
+  section {
+    width: 38em;
   }
 
   pre[class*="language-"] {
-    width: 33em;
+    width: 31em;
   }
 }
 
@@ -190,10 +211,16 @@ pre[class*="language-"]:hover {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 48em) {
+
   header,
   nav {}
+
+  section {
+    width: 40em;
+  }
+
   pre[class*="language-"] {
-    width: 35em;
+    width: 32.5em;
   }
 }
 
