@@ -192,7 +192,7 @@ pre[class*="language-"]:hover {
 }
 
 article pre[class*="language-"] {
-  width: 17em;
+  width: 16em;
 }
 
 /* breakpoints */
@@ -274,8 +274,7 @@ article pre[class*="language-"] {
   }
 
   .header-box,
-  .nav-box,
-  p {
+  .nav-box {
     width: 32.5em;
   }
 
