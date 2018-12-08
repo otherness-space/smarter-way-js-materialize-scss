@@ -90,6 +90,7 @@ nav ul li {
   display: inline-flex;
   box-sizing: content-box;
   padding: 0 .5em 0 0;
+  text-align: center;
 }
 
 nav ul li:hover {
