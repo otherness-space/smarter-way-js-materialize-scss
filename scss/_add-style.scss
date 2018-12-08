@@ -1,7 +1,6 @@
----
----
 $black_262626: #262626;
 $darkgray_b3b3b3: #b3b3b3;
+$gainsboro_e6e6e6: #e6e6e6;
 
 html {
   border: 0;
@@ -24,27 +23,30 @@ body {
 header {
   display: block;
   box-sizing: border-box;
-  width: 100%;
   height: 20%;
-  margin: auto;
   border: solid green .25em;
-  padding: inherit;
-  padding-inline-start: calc(.5 * 1em);
   background: red;
 
   h1 {
     margin: 0;
+    padding-inline-start: calc(.0625 * 1em);
   }
+  width: 100%;
+  margin: auto;
+  padding: inherit;
 }
 
 nav {
   display: block;
   box-sizing: border-box;
+  width: 100%;
+  margin: auto;
+  padding: inherit;
   border: solid black .25em;
   background: yellow;
 
   ul {
-    padding-inline-start: calc(.75 * 1em);
+    padding-inline-start: calc(.25 * 1em);
 
     li {
       box-sizing: content-box;
@@ -67,7 +69,23 @@ main {
 p {
   box-sizing: border-box;
   display: block;
-  font-size: 1em;
+  font-size: calc(1.2*1em);
+  margin: 0 auto;
+  width: 18.75em;
+}
+
+.header-box {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  width: 22.5em;
+}
+
+.nav-box {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  width: 22.5em;
 }
 
 aside {
@@ -110,13 +128,68 @@ h4 {
   font-size: 1.414em;
 }
 
+.p-break {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+pre {
+  font-size: calc(1.2*1em);
+}
+
+code {
+  font-size: calc(.9*1em);
+}
+
 pre[class*="language-"] {
   background: $black_262626;
-  border: .3em solid $darkgray_b3b3b3;
+  border: .15em solid $darkgray_b3b3b3;
+  padding: .25em;
+  width: 18em;
+  margin: 0 auto;
+  overflow-x: auto;
+
+  &:hover {
+    border: .15em solid $gainsboro_e6e6e6;
+  }
 }
 
 :not(pre) {
   >code[class*="language-"] {
     background: $black_262626;
+    border: .15em solid $darkgray_b3b3b3;
+    padding: .25em;
+  }
+}
+
+@media (min-width: 25em) {
+  header {
+    h1 {
+      padding-inline-start: 0;
+    }
+  }
+}
+
+@media (min-width: 35em) {
+  .header-box {
+    width: 32.5em;
+  }
+
+  .nav-box {
+    width: 32.5em;
+  }
+
+  p {
+    width: 32.5em;
+  }
+
+  pre[class*="language-"] {
+    width: 33em;
+  }
+}
+
+@media (min-width: 48em) {
+  pre[class*="language-"] {
+    width: 35em;
   }
 }
