@@ -243,6 +243,13 @@ article pre[class*="language-"] {
     width: 37.5em;
   }
 
+  article h1,
+  article h2,
+  article h3,
+  article h4 {
+    width: 32em;
+  }
+
   article p {
     width: 30em;
   }
@@ -267,6 +274,12 @@ article pre[class*="language-"] {
 
   section {
     width: 40em;
+  }
+
+  .header-box,
+  .nav-box,
+  p {
+    width: 32.5em;
   }
 
   pre[class*="language-"] {

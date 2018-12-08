@@ -270,6 +270,22 @@ pre[class*="language-"] {
   }
 
   article {
+    h1 {
+      width: 32em;
+    }
+
+    h2 {
+      width: 32em;
+    }
+
+    h3 {
+      width: 32em;
+    }
+
+    h4 {
+      width: 32em;
+    }
+
     p {
       width: 30em;
     }
@@ -287,6 +303,18 @@ pre[class*="language-"] {
 @media (min-width: 48em) {
   section {
     width: 40em;
+  }
+
+  .header-box {
+    width: 32.5em;
+  }
+
+  .nav-box {
+    width: 32.5em;
+  }
+
+  p {
+    width: 32.5em;
   }
 
   pre[class*="language-"] {
