@@ -99,7 +99,7 @@ nav ul li:hover {
 }
 
 main {
-  width: 23em;
+  width: 22em;
   height: auto;
   margin: 0 auto;
   border: 0;
@@ -107,7 +107,7 @@ main {
 }
 
 section {
-  width: 22em;
+  width: 21em;
   margin: 0 auto;
   padding: calc(.25*1em);
   background: rgba(211, 211, 211, 1);
@@ -186,7 +186,7 @@ pre[class*="language-"],
 
 pre[class*="language-"] {
   border: .15em solid hsla(0, 0%, 70%, 1);
-  width: 18em;
+  width: 17em;
   margin: 0 auto;
   overflow-x: auto;
 }
