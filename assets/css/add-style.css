@@ -99,7 +99,6 @@ nav ul li:hover {
 }
 
 main {
-  width: 22em;
   height: auto;
   margin: 0 auto;
   border: 0;
@@ -144,13 +143,10 @@ h4, .h4 {
 
 /* font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit; */
 p {
-  width: 18em;
   font-size: calc(1.2*1em);
 }
 
-article p {
-  width: 17em;
-}
+article p {}
 
 .p-break {
   word-break: break-all;

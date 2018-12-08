@@ -94,7 +94,6 @@ main {
   height: auto;
   margin: 0 auto;
   padding: .5em;
-  width: 22em;
 }
 
 p {
@@ -102,7 +101,6 @@ p {
   display: block;
   font-size: calc(1.2*1em);
   margin: 0 auto;
-  width: 18em;
 }
 
 .header-box {
@@ -129,10 +127,6 @@ section {
 article {
   margin: calc(.25*1em);
   padding: calc(.25*1em);
-
-  p {
-    width: 17em;
-  }
 
   pre[class*="language-"] {
     width: 17em;
