@@ -39,9 +39,17 @@ header {
   background: rgba(245, 245, 245, 1);
 }
 
-header h1 {
+header h1,
+header h2,
+header h3 {
   padding-inline-start: calc(.0625 * 1em);
   margin: 0;
+}
+
+header h4 {
+  padding-inline-start: calc(.2 * 1em);
+  margin: 0;
+  font-style: italic;
 }
 
 .header-box,
@@ -85,25 +93,29 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background: rgba(245, 245, 245, .1);
+  background: rgba(140, 160, 240, .25);
+  font-weight: 600;
 }
 
 main {
-  width: 100%;
+  width: 23em;
   height: auto;
-  margin: 0;
+  margin: 0 auto;
   border: 0;
   padding: .5em;
 }
 
 section {
-  width: 22.5em;
+  width: 22em;
   margin: 0 auto;
   padding: calc(.25*1em);
   background: rgba(211, 211, 211, 1);
 }
 
-article {}
+article {
+  margin: calc(.25*1em);
+  padding: calc(.25*1em);
+}
 
 aside {
   font-size: .707em;
@@ -131,8 +143,12 @@ h4, .h4 {
 
 /* font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit; */
 p {
-  width: 18.5em;
+  width: 18em;
   font-size: calc(1.2*1em);
+}
+
+article p {
+  width: 17em;
 }
 
 .p-break {
@@ -178,6 +194,10 @@ pre[class*="language-"]:hover {
   border: .15em solid hsla(0, 0%, 90%, 1);
 }
 
+article pre[class*="language-"] {
+  width: 17em;
+}
+
 /* breakpoints */
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
@@ -196,13 +216,23 @@ pre[class*="language-"]:hover {
   p {
     width: 30.5em;
   }
-
-  section {
+  main {
     width: 38em;
+  }
+  section {
+    width: 37.5em;
+  }
+
+  article p {
+    width: 30em;
   }
 
   pre[class*="language-"] {
-    width: 31em;
+    width: 30.5em;
+  }
+
+  article pre[class*="language-"] {
+    width: 30em;
   }
 }
 

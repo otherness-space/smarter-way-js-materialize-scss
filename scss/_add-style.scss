@@ -33,6 +33,22 @@ header {
     margin: 0;
     padding-inline-start: calc(.0625 * 1em);
   }
+
+  h2 {
+    margin: 0;
+    padding-inline-start: calc(.0625 * 1em);
+  }
+
+  h3 {
+    margin: 0;
+    padding-inline-start: calc(.0625 * 1em);
+  }
+
+  h4 {
+    font-style: italic;
+    margin: 0;
+    padding-inline-start: calc(.2 * 1em);
+  }
   width: 100%;
   margin: auto;
   padding: inherit;
@@ -63,7 +79,8 @@ nav {
       padding: 0 .5em 0 0;
 
       &:hover {
-        background: rgba(245, 245, 245, .1);
+        background: rgba(140, 160, 240, .25);
+        font-weight: 600;
       }
     }
   }
@@ -74,9 +91,9 @@ main {
   box-sizing: border-box;
   display: block;
   height: auto;
-  margin: 0;
+  margin: 0 auto;
   padding: .5em;
-  width: 100%;
+  width: 23em;
 }
 
 p {
@@ -84,7 +101,7 @@ p {
   display: block;
   font-size: calc(1.2*1em);
   margin: 0 auto;
-  width: 18.5em;
+  width: 18em;
 }
 
 .header-box {
@@ -105,7 +122,20 @@ section {
   background: lightgray;
   margin: 0 auto;
   padding: calc(.25*1em);
-  width: 22.5em;
+  width: 22em;
+}
+
+article {
+  margin: calc(.25*1em);
+  padding: calc(.25*1em);
+
+  p {
+    width: 17em;
+  }
+
+  pre[class*="language-"] {
+    width: 17em;
+  }
 }
 
 aside {
@@ -203,12 +233,26 @@ pre[class*="language-"] {
     width: 30.5em;
   }
 
-  section {
+  main {
     width: 38em;
   }
 
+  section {
+    width: 37.5em;
+  }
+
+  article {
+    p {
+      width: 30em;
+    }
+
+    pre[class*="language-"] {
+      width: 30em;
+    }
+  }
+
   pre[class*="language-"] {
-    width: 31em;
+    width: 30.5em;
   }
 }
 
