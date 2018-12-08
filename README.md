@@ -26,7 +26,7 @@ Your Mom's blank repo.
 
 ### What [≪](#read-me)
 
-Blank repo.
+AKA Chasing the em repo.
 
 -   [x] A
 -   [ ] B
