@@ -47,7 +47,7 @@ header h3 {
 }
 
 header h4 {
-  padding-inline-start: calc(.2 * 1em);
+  padding-inline-start: calc(.5 * 1em);
   margin: 0;
   font-style: italic;
 }
@@ -89,7 +89,7 @@ nav ul {
 nav ul li {
   display: inline-flex;
   box-sizing: content-box;
-  padding: 0 .5em 0 0;
+  padding: 0 .5em 0 .5em;
   text-align: center;
 }
 
@@ -205,7 +205,7 @@ article pre[class*="language-"] {
 // > 400px
 @media (min-width: 25em) {
   header h1 {
-    padding-inline-start: 0;
+    padding-inline-start: calc(.125*1em);
   }
 }
 
