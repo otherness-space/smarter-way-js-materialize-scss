@@ -1,10 +1,5 @@
 ---
 ---
-<!-- Any file that contains a YAML front matter block will be processed by Jekyll as a special file. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines.  -->
-<!-- Between these triple-dashed lines, you can set predefined variables ... or even create custom ones of your own. These variables will then be available to you to access using Liquid tags both further down in the file and also in any layouts or includes that the page or post in question relies on -->
-<!-- If you want to use Liquid tags and variables but don’t need anything in your front matter, just leave it empty! The set of triple-dashed lines with nothing in between will still get Jekyll to process your file. (This is useful for things like CSS and RSS feeds!) -->
-<!-- https://jekyllrb.com/docs/front-matter/ -->
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -16,24 +11,85 @@
   <link rel="stylesheet" href="assets/css/prism.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <title></title>
+
+  <!-- Any file that contains a YAML front matter block will be processed by Jekyll as a special file. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines.  -->
+  <!-- Between these triple-dashed lines, you can set predefined variables ... or even create custom ones of your own. These variables will then be available to you to access using Liquid tags both further down in the file and also in any layouts or includes that the page or post in question relies on -->
+  <!-- If you want to use Liquid tags and variables but don’t need anything in your front matter, just leave it empty! The set of triple-dashed lines with nothing in between will still get Jekyll to process your file. (This is useful for things like CSS and RSS feeds!) -->
+  <!-- https://jekyllrb.com/docs/front-matter/ -->
+
 </head>
 
 <body>
 
   <header>
-    <h1>Hello World</h1>
+    <div class="header-box">
+      <h1>Hello World</h1>
+    </div>
   </header>
 
   <nav>
-    <ul>
-      <li>nav</li>
-      <li>menu</li>
-      <li>demo</li>
-    </ul>
+    <div class="nav-box">
+      <ul>
+        <li>nav</li>
+        <li>menu</li>
+        <li>demo</li>
+      </ul>
+    </div>
   </nav>
 
   <main>
-
+    <p>320px 18.75em</p>
+    <p class="p-break">012345678901234567890123456789012</p>
+    <p>space</p>
+    <p class="p-break">0123456789012345678901234567890123456789</p>
+    <p>space</p>
+    <p class="p-break">01234567890123456789012345678901234567890123456789</p>
+    <p>540px 32.5em</p>
+    <p class="p-break">0123456789012345678901234567890123456789012345678901234567</p>
+    <p>space</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat ante massa, vel finibus arcu condimentum at. Pellentesque ac iaculis ipsum. Nulla egestas ipsum a mauris ultrices commodo. Vivamus nulla diam, tincidunt sed sapien vel,
+      tempor tincidunt lacus. Sed in gravida tellus. Nullam eu mollis sem. Fusce in accumsan purus, eleifend congue tortor. Nullam aliquam porta faucibus. Nam blandit, nisl in lobortis fringilla, erat neque blandit dolor, vel faucibus dui arcu
+      tincidunt nisi. Duis porttitor magna nisi, tristique egestas quam molestie sed. Quisque tempus nec quam ac convallis. Etiam laoreet risus in purus consequat, id luctus leo egestas. Morbi lacinia mauris enim, eu molestie est cursus ac.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <code class="language-css">p { color: red }</code> Proin feugiat ante massa, vel finibus arcu condimentum at. Pellentesque ac iaculis ipsum. Nulla egestas ipsum a mauris ultrices
+      commodo. Vivamus nulla diam, tincidunt sed sapien vel, tempor tincidunt lacus. Sed in gravida tellus. Nullam eu mollis sem. Fusce in accumsan purus, eleifend congue tortor. Nullam aliquam porta faucibus. Nam blandit, nisl in lobortis
+      fringilla, erat neque blandit dolor, vel faucibus dui arcu tincidunt nisi. Duis porttitor magna nisi, tristique egestas quam molestie sed. Quisque tempus nec quam ac convallis. Etiam laoreet risus in purus consequat, id luctus leo egestas.
+      Morbi lacinia mauris enim, eu molestie est cursus ac.</p>
+    <pre>
+      <code class="language-css">
+      p { color: red }
+      .prism-previewer:before {
+      	top: -5px;
+      	right: -5px;
+      	left: -5px;
+      	bottom: -5px;
+      	border-radius: 10px;
+      	border: 5px solid #fff;
+      	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset, 0 0 10px rgba(0, 0, 0, 0.75);
+      }
+      </code>
+    </pre>
+    <p class="p-break">012345678901234567890123456789</p>
+    <p>space</p>
+    <p class="p-break">0123456789012345678901234567890123456789</p>
+    <p>space</p>
+    <p class="p-break">01234567890123456789012345678901234567890123456789</p>
+    <p>space</p>
+    <p class="p-break">012345678901234567890123456789012345678901234567890123456789</p>
+    <p>space</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat ante massa, vel finibus arcu condimentum at. Pellentesque ac iaculis ipsum. Nulla egestas ipsum a mauris ultrices commodo. Vivamus nulla diam, tincidunt sed sapien vel,
+      tempor tincidunt lacus. Sed in gravida tellus. Nullam eu mollis sem. Fusce in accumsan purus, eleifend congue tortor. Nullam aliquam porta faucibus. Nam blandit, nisl in lobortis fringilla, erat neque blandit dolor, vel faucibus dui arcu
+      tincidunt nisi. Duis porttitor magna nisi, tristique egestas quam molestie sed. Quisque tempus nec quam ac convallis. Etiam laoreet risus in purus consequat, id luctus leo egestas. Morbi lacinia mauris enim, eu molestie est cursus ac.</p>
+    <p class="p-break">012345678901234567890123456789</p>
+    <p>space</p>
+    <p class="p-break">0123456789012345678901234567890123456789</p>
+    <p>space</p>
+    <p class="p-break">01234567890123456789012345678901234567890123456789</p>
+    <p>space</p>
+    <p class="p-break">012345678901234567890123456789012345678901234567890123456789</p>
+    <p>space</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat ante massa, vel finibus arcu condimentum at. Pellentesque ac iaculis ipsum. Nulla egestas ipsum a mauris ultrices commodo. Vivamus nulla diam, tincidunt sed sapien vel,
+      tempor tincidunt lacus. Sed in gravida tellus. Nullam eu mollis sem. Fusce in accumsan purus, eleifend congue tortor. Nullam aliquam porta faucibus. Nam blandit, nisl in lobortis fringilla, erat neque blandit dolor, vel faucibus dui arcu
+      tincidunt nisi. Duis porttitor magna nisi, tristique egestas quam molestie sed. Quisque tempus nec quam ac convallis. Etiam laoreet risus in purus consequat, id luctus leo egestas. Morbi lacinia mauris enim, eu molestie est cursus ac.</p>
   </main>
 
   <footer>
@@ -41,7 +97,7 @@
   </footer>
 
   <!-- javascript -->
-  <script src="assets/js/prism.min.js"></script>
+  <script src="assets/js/prism.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 
