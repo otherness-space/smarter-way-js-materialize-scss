@@ -208,6 +208,16 @@ article pre[class*="language-"] {
   }
 }
 
+@media (min-width: 29.9375em) {
+  section {
+    width: 28em;
+  }
+
+  pre[class*="language-"] {
+    width: 28em;
+  }
+}
+
 // > 560px
 @media (min-width: 35em) {
 

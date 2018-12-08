@@ -220,6 +220,16 @@ pre[class*="language-"] {
   }
 }
 
+@media (min-width: 29.9375em) {
+  section {
+    width: 28em;
+  }
+
+  pre[class*="language-"] {
+    width: 28em;
+  }
+}
+
 @media (min-width: 35em) {
   .header-box {
     width: 30.5em;
