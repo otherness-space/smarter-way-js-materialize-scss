@@ -209,11 +209,7 @@ article pre[class*="language-"] {
 }
 
 @media (min-width: 29.9375em) {
-  section {
-    width: 28em;
-  }
-
-  pre[class*="language-"] {
+  main {
     width: 28em;
   }
 }
