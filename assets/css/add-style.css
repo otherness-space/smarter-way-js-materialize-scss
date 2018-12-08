@@ -146,6 +146,10 @@ p {
   font-size: calc(1.2*1em);
 }
 
+article h4 {
+  padding: calc(.0625*1em);
+}
+
 article p {}
 
 .p-break {
