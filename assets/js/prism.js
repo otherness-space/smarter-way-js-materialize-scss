@@ -1,5 +1,5 @@
 /* PrismJS 1.15.0
-https://prismjs.com/download.html#themes=prism-dark&languages=markup+css+clike+javascript+apacheconf+c+asciidoc+csharp+bash+cpp+coffeescript+clojure+ruby+css-extras+dart+django+docker+elixir+markup-templating+erlang+flow+git+go+less+haskell+java+json+julia+latex+markdown+liquid+lisp+makefile+erb+matlab+objectivec+pascal+perl+php+php-extras+sql+powershell+prolog+properties+scss+puppet+pure+python+r+jsx+typescript+rest+rust+sass+scala+scheme+plsql+swift+yaml+tsx+vim+wiki&plugins=line-highlight+line-numbers+custom-class+toolbar+jsonp-highlight+highlight-keywords+previewers+command-line+normalize-whitespace+keep-markup+show-invisibles+copy-to-clipboard */
+https://prismjs.com/download.html#themes=prism-dark&languages=markup+css+clike+javascript+apacheconf+c+asciidoc+csharp+bash+cpp+coffeescript+clojure+ruby+css-extras+dart+django+docker+elixir+markup-templating+erlang+flow+git+go+less+haskell+java+json+julia+latex+markdown+liquid+lisp+makefile+erb+matlab+objectivec+pascal+perl+php+php-extras+sql+powershell+prolog+properties+scss+puppet+pure+python+r+jsx+typescript+rest+rust+sass+scala+scheme+plsql+swift+yaml+tsx+vim+wiki&plugins=line-highlight+line-numbers+custom-class+toolbar+jsonp-highlight+highlight-keywords+previewers+command-line+normalize-whitespace+keep-markup+copy-to-clipboard */
 var _self = (typeof window !== 'undefined')
 	? window   // if in browser
 	: (
@@ -6190,28 +6190,6 @@ Prism.hooks.add('before-sanity-check', function (env) {
 		}
 	});
 }());
-
-(function(){
-
-if (
-	typeof self !== 'undefined' && !self.Prism ||
-	typeof global !== 'undefined' && !global.Prism
-) {
-	return;
-}
-
-Prism.hooks.add('before-highlight', function(env) {
-	var tokens = env.grammar;
-
-	if (!tokens) return;
-
-	tokens.tab = /\t/g;
-	tokens.crlf = /\r\n/g;
-	tokens.lf = /\n/g;
-	tokens.cr = /\r/g;
-	tokens.space = / /g;
-});
-})();
 
 (function(){
 	if (typeof self === 'undefined' || !self.Prism || !self.document) {
