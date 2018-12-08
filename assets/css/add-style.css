@@ -216,6 +216,16 @@ article pre[class*="language-"] {
   section {
     width: 28em;
   }
+
+  p,
+  pre[class*="language-"] {
+    width: 23em;
+  }
+
+  article p,
+  article pre[class*="language-"] {
+    width: 22em;
+  }
 }
 
 // > 560px
