@@ -36,7 +36,7 @@ header {
   height: 20%;
   border: solid #000;
   border-width: 0 0 .125em 0;
-  background: rgba(245, 245, 245, 1);
+  background: rgba(205, 220, 255, .25);
 }
 
 header h1,
