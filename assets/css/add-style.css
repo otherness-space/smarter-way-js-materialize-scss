@@ -23,6 +23,7 @@ p,
 
 html,
 body {
+  width: auto;
   margin: 0;
   border: 0;
   padding: 0;
