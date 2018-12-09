@@ -52,7 +52,7 @@ header {
     padding-inline-start: calc(.5 * 1em);
   }
   width: 100%;
-  margin: auto;
+  margin: 0;
   padding: inherit;
 }
 
@@ -60,7 +60,7 @@ nav {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  margin: auto;
+  margin: 0;
   padding: inherit;
   border: solid $black_000;
   border-width: .125em 0 0 0;
