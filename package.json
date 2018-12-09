@@ -1,20 +1,24 @@
 {
-  "name": "smarter-way-js",
+  "name": "smarter-way-js-materialize-scss",
   "version": "1.0.0",
   "description": "## Contents",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "materialize-css": "^1.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/otherness-space/smarter-way-js.git"
+    "url": "git+https://github.com/otherness-space/smarter-way-js-materialize-scss.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/otherness-space/smarter-way-js/issues"
+    "url": "https://github.com/otherness-space/smarter-way-js-materialize-scss/issues"
   },
-  "homepage": "https://github.com/otherness-space/smarter-way-js#readme"
+  "homepage": "https://github.com/otherness-space/smarter-way-js-materialize-scss#readme"
 }
