@@ -109,7 +109,7 @@ section {
   width: 21em;
   margin: 0 auto;
   padding: calc(.25*1em);
-  background: rgba(211, 211, 211, 1);
+  background: rgba(211, 211, 211, .5);
 }
 
 article {
