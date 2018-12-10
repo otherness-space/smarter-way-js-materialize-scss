@@ -30,33 +30,23 @@ body {
 }
 
 body {
-  background: hsla(0, 0%, 100%, 1);
+  background: hsla(0, 0%, 100%, .9);
 }
 
 header {
-  height: 20%;
-  border: solid #000;
-  border-width: 0 0 .125em 0;
   background: rgba(205, 220, 255, .25);
 }
 
 header h1,
 header h2,
-header h3 {
-  padding-inline-start: calc(.0625 * 1em);
-  margin: 0;
-}
+header h3 {}
 
 header h4 {
-  padding-inline-start: calc(.5 * 1em);
-  margin: 0;
   font-style: italic;
 }
 
 .header-box,
-.nav-box {
-  width: 22.5em;
-}
+.nav-box {}
 
 p,
 .header-box,
@@ -65,49 +55,25 @@ p,
 }
 
 header,
-nav {
-  width: 100%;
-  margin: 0;
-  padding: inherit;
-}
+nav {}
 
-nav {
-  border: solid #000;
-  border-width: .125em 0 0 0;
-  background: rgba(245, 245, 245, 1);
-}
+nav {}
 
-nav:hover {
-  border: solid white;
-  border-width: .125em 0 0 0;
-  background: rgba(245, 245, 245, .7);
-}
+nav:hover {}
 
-nav ul {
-  padding-inline-start: calc(.25 * 1em);
-}
+nav ul {}
 
-nav ul li {
-  display: inline-flex;
-  box-sizing: content-box;
-  padding: 0 .5em 0 .5em;
-  text-align: center;
-}
+nav ul li {}
 
-nav ul li:hover {
-  background: rgba(140, 160, 240, .25);
-  font-weight: 600;
-}
+nav ul li:hover {}
 
 main {
-  width: 22em;
   margin: 0 auto;
   border: 0;
   padding: .5em;
 }
 
 section {
-  width: 21em;
   margin: 0 auto;
   padding: calc(.25*1em);
   background: rgba(211, 211, 211, .5);
@@ -147,9 +113,7 @@ p {
   font-size: calc(1.2*1em);
 }
 
-article h4 {
-  padding: calc(.0625*1em);
-}
+article h4 {}
 
 article p {}
 
@@ -187,7 +151,6 @@ pre[class*="language-"],
 
 pre[class*="language-"] {
   border: .15em solid hsla(0, 0%, 70%, 1);
-  width: 17em;
   margin: 0 auto;
   overflow-x: auto;
 }
@@ -196,38 +159,26 @@ pre[class*="language-"]:hover {
   border: .15em solid hsla(0, 0%, 90%, 1);
 }
 
-article pre[class*="language-"] {
-  width: 16em;
-}
+article pre[class*="language-"] {}
 
 /* breakpoints */
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 // > 400px
 @media (min-width: 25em) {
-  header h1 {
-    padding-inline-start: calc(.125*1em);
-  }
+  header h1 {}
 }
 
 @media (min-width: 29.9375em) {
-  main {
-    width: 28em;
-  }
+  main {}
 
-  section {
-    width: 28em;
-  }
+  section {}
 
   p,
-  pre[class*="language-"] {
-    width: 23em;
-  }
+  pre[class*="language-"] {}
 
   article p,
-  article pre[class*="language-"] {
-    width: 22em;
-  }
+  article pre[class*="language-"] {}
 }
 
 // > 560px
@@ -235,36 +186,22 @@ article pre[class*="language-"] {
 
   .header-box,
   .nav-box,
-  p {
-    width: 30.5em;
-  }
+  p {}
 
-  main {
-    width: 38em;
-  }
+  main {}
 
-  section {
-    width: 37.5em;
-  }
+  section {}
 
   article h1,
   article h2,
   article h3,
-  article h4 {
-    width: 32em;
-  }
+  article h4 {}
 
-  article p {
-    width: 30em;
-  }
+  article p {}
 
-  pre[class*="language-"] {
-    width: 30.5em;
-  }
+  pre[class*="language-"] {}
 
-  article pre[class*="language-"] {
-    width: 30em;
-  }
+  article pre[class*="language-"] {}
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -276,18 +213,12 @@ article pre[class*="language-"] {
   header,
   nav {}
 
-  section {
-    width: 40em;
-  }
+  section {}
 
   .header-box,
-  .nav-box {
-    width: 32.5em;
-  }
+  .nav-box {}
 
-  pre[class*="language-"] {
-    width: 32.5em;
-  }
+  pre[class*="language-"] {}
 }
 
 // Large devices (desktops, 992px and up)
