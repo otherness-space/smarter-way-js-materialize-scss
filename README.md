@@ -179,7 +179,7 @@ Third party resources applied in this repo. Each resource uses a GPL compatible 
 
 -   Materialize, v1.0.0
     -   Copyright (c) 2014-2018
-    -   [![GitHub release](https://img.shields.io/github/release/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/) [![GitHub forks](https://img.shields.io/github/forks/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/network) [![GitHub stars](https://img.shields.io/github/stars/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/stargazers) [![GitHub license](https://img.shields.io/github/license/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/blob/v1-dev/LICENSE)
+    -   [![Build Status](https://img.shields.io/travis/Dogfalo/materialize.svg?style=social)](https://travis-ci.org/Dogfalo/materialize) [![GitHub release](https://img.shields.io/github/release/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/) [![npm version](https://img.shields.io/npm/v/materialize-css.svg?style=social)](https://www.npmjs.com/package/materialize-css) [![GitHub forks](https://img.shields.io/github/forks/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/network) [![GitHub stars](https://img.shields.io/github/stars/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/stargazers) [![GitHub license](https://img.shields.io/github/license/Dogfalo/materialize.svg?style=social)](https://github.com/Dogfalo/materialize/blob/v1-dev/LICENSE)
 -   anime.min.js, v2.2.0, JavaScript Animation Engine
     -   2017 Julian Garnier
     -   <http://animejs.com>
