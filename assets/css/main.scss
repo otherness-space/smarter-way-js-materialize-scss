@@ -7,4 +7,5 @@
 // mv add-style.css sass_dir/_add-style.scss
 // add @import "add-style"; => assets/css/main.scss
 // convert css to scss for Jekyll native sass to play with
+@import "materialize";
 @import "add-style";
