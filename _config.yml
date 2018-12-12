@@ -1,12 +1,26 @@
-highlighter: none
+highlighter:  none
 # excerpt_separator: <!--more-->
-# markdown: kramdown
+# markdown:   kramdown
 plugins:
-  - jekyll-mentions
+  # deafault
+  # - jekyll-coffeescript
+  # - jekyll-gist
+  # - jekyll-github-metadata
+  # - jekyll-paginate
+  # - jekyll-relative-links
+  # - jekyll-optional-front-matter
+  # - jekyll-readme-index
+  # - jekyll-default-layout
+  # - jekyll-titles-from-headings
+  # optional
   # - jekyll-feed
+  # - jekyll-redirect-from
   # - jekyll-seo-tag
   # - jekyll-sitemap
   # - jekyll-avatar
+  # - jemoji
+  - jekyll-mentions
+  # - jekyll-include-cache
 
 sass:
   load_paths:
